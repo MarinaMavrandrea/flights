@@ -6,7 +6,7 @@
 #epeita epilegetai apply kleinete to arxeio kai to ksanaanoigete
 
 #Να υπολογίσετε και να εμφανίσετε τις απαντήσεις για κάθε ένα από τα παρακάτω ερωτήματα
-DelayedFlights <- read_csv("F:/Desktop/Ergasia marinas/ergasia1/DelayedFlights.csv")
+DelayedFlights <- read_csv("F:/Desktop/Ergasia/ergasia1/DelayedFlights.csv")
 
 #Ερώτηση 1:να βρείτε (αν υπάρχουν) και να εμφανίσετε το πλήθος των κενών γραμμών σε κάθε στήλη του dataset
 emptyLines <- sum(is.na(DelayedFlights))
